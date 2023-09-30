@@ -1,1 +1,174 @@
-
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "A8dYc3XAeczf",
+        "outputId": "5b0ebe8f-e38b-4ed9-8f08-cf5280e0c3b6"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "長庚大學\n",
+            "醫學系\n",
+            "曾慧欣\n"
+          ]
+        }
+      ],
+      "source": [
+        "a='''長庚大學\n",
+        "醫學系\n",
+        "曾慧欣'''\n",
+        "print(a)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "b=input('Is this number bigger than 10? ')\n",
+        "print(float(b)>10)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "KXGb7gcnflL_",
+        "outputId": "89f5d0a0-0a7a-4fd9-8877-19e613267066"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Is this number bigger than 10? 5\n",
+            "False\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=3\n",
+        "b=5\n",
+        "c=a**b\n",
+        "print(c)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "DiZPIH1-jdk5",
+        "outputId": "061e8589-6822-4c2e-c548-c9e13e03fdfb"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "243\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=3\n",
+        "b=5\n",
+        "print(a!=b)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "2-QgO--PkkTY",
+        "outputId": "74dbcb3b-9f38-4539-c545-623513ec3220"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "True\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=3\n",
+        "b=5\n",
+        "a/=b\n",
+        "print(a)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Dc9lGoeQlxLx",
+        "outputId": "972460b2-c400-429f-ac78-f1dd78d9ab64"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "0.6\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=3\n",
+        "b=5\n",
+        "a=a/b\n",
+        "print(a)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "0Hls9F9pmWWZ",
+        "outputId": "fb96c4ed-9069-43cf-8b41-963a7bd1f8d4"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "0.6\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
